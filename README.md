@@ -9,7 +9,7 @@ influencing churn.
 - Dataset contains 7,000+ customer records
 - Includes features like customer demographics, services, and account information
 - **Source:** Telco Customer Churn — Kaggle
-- **Target variable:** Churn (Yes/No) | **Churn Rate:** 26.5%
+- **Target variable:** Churn (Yes/No) 
 
 ##  Approach
 
@@ -23,7 +23,7 @@ influencing churn.
 - Identified key features affecting churn behavior
 
 ### 🔹 Handling Class Imbalance
-- Applied **SMOTE** (Synthetic Minority Oversampling Technique)
+- Applied SMOTE (Synthetic Minority Oversampling Technique)
 - Improved model's ability to detect churn customers
 
 ##  Model Building
@@ -51,7 +51,7 @@ influencing churn.
 - Model improved churn detection by reducing missed churn cases (~20%)
 - Trade-off observed between accuracy and recall due to class imbalance
 - Fiber optic users and month-to-month contract customers churn the most
-- Identified importance of focusing on **Recall** for business impact
+- Identified importance of focusing on Recall for business impact
 
 ##  Tools & Technologies
 - Python
